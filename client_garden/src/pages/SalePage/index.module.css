@@ -1,0 +1,15 @@
+.products_sale_page {
+    width: 1384px;
+    margin: 0 auto;
+}
+
+.products_sale_page h2 {
+    margin: 80px 0;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 1.2px;
+}

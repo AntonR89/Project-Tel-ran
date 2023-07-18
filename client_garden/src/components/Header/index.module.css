@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 0;
+    width: 1384px;
+    margin: 0 auto;
+}
+
+.logo_item {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.btn_catalog {
+    padding: 15px 30px;
+    border: 2px solid #339933;
+    border-radius: 5px;
+    background: #339933;
+    cursor: pointer;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.btn_catalog:active {
+    background-color: #2f6627;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: end;
+    width: 750px;
+    gap: 40px;
+}
+
+.nav_menu a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+}

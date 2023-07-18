@@ -1,0 +1,131 @@
+.product_descr_page {
+    width: 1384px;
+    margin: 0 auto;
+}
+
+.product_descr_page h2 {
+    margin: 137px 0 30px;
+    color: #3A3A3A;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.08px;
+}
+
+.title_img {
+    width: 710px;
+    height: 710px;
+    margin: 0 60px;
+}
+
+.description_container {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    width: 425px;
+    height: 424px;
+    margin-left: 70px;
+}
+
+.description_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.originalPrice {
+    color: #8B8B8B;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+    letter-spacing: 0.6px;
+    text-decoration-line: line-through;
+}
+
+.discount {
+    color: #FF32A1;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    letter-spacing: 0.6px;
+}
+
+.price {
+    margin-bottom: 40px;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+
+.to_cart_btn {
+    width: 340px;
+    height: 85px;
+    border: 2px solid #393;
+    border-radius: 10px;
+    background: #393;
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.to_cart_btn:active {
+    background-color: #2f6627;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.descr_title {
+    margin-bottom: 15px;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.6px;
+}
+
+.descr_title::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: repeating-linear-gradient(
+        to right,
+        #C0C0C0,
+        #C0C0C0 8px,
+        transparent 8px,
+        transparent 16px
+    );
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.descr {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.6px;
+}

@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.cart_container {
+    width: 825px;
+    border-bottom: 1px solid #A7A7A7;
+    position: relative;
+}
+
+.order_details {
+    width: 496px;
+    height: 394px;
+    border: 2px solid #000;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 25px 25px;
+    margin-bottom: 25px;
+}
+
+.order_details h3 {
+    padding: 25px;
+    color: #000;
+    font-size: 28px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.84px;
+}
+
+.total-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .total {
+    color: #000;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.72px;
+  }
+  
+  .total-value {
+    color: #000;
+    font-size: 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.96px;
+  }
+  
+
+.order_details form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_phone {
+    width: 446px;
+    height: 73px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background: #FFF;
+    padding: 25px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.54px;
+    margin-bottom: 25px;
+}
+
+.order_btn {
+    width: 446px;
+    height: 73px;
+    cursor: pointer;
+    border-radius: 20px;
+    background: #393;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 28px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.84px;
+}
+
+.order_btn:active {
+    background-color: #2f6627;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.empty_cart {
+    margin: 0 150px;
+    
+}
+
